@@ -1,0 +1,246 @@
+🗓️ الخطة الأسبوعية — ساعة واحدة يوميًا
+
+
+---
+
+📍 الأسبوع 1 — أساسيات Node.js (Fundamentals)
+
+اليوم 1 — What is Node.js + Event Loop
+
+Node.js يعني إيه
+
+V8 Engine
+
+Event Loop (مهم جدًا)
+
+
+اليوم 2 — CommonJS vs ES Modules
+
+require / module.exports
+
+import / export
+
+
+اليوم 3 — FS & Path Modules
+
+قراءة وكتابة ملفات
+
+استخدام path.join / dirname
+
+
+اليوم 4 — HTTP Module
+
+عمل server بسيط بدون Express
+
+فهم request و response
+
+
+اليوم 5 — NPM
+
+تثبيت Packages
+
+scripts في package.json
+
+
+اليوم 6 — Asynchronous Programming
+
+Callback
+
+Promise
+
+async/await
+
+
+اليوم 7 — مراجعة + تطبيق صغير
+
+اعمل برنامج بسيط يقرأ ملف JSON ويرجع محتواه
+
+
+
+---
+
+📍 الأسبوع 2 — Express.js (أساس بناء الـ APIs)
+
+اليوم 1 — إنشاء مشروع Express
+
+express()
+
+routes
+
+get/post
+
+
+اليوم 2 — Middleware
+
+فهم middleware
+
+عمل middleware مخصص
+
+استخدام morgan
+
+
+اليوم 3 — Routing + Controllers
+
+فصل الكود
+
+routes folder
+
+controllers folder
+
+
+اليوم 4 — التعامل مع Body
+
+Express.json()
+
+Validation خفيف
+
+
+اليوم 5 — Error Handling
+
+Custom error handler
+
+throw new Error()
+
+
+اليوم 6 — REST API Basics
+
+CRUD كامل على Array (بدون DB)
+
+
+اليوم 7 — تطبيق الأسبوع
+
+اعمل REST API صغير فيه CRUD للـ products
+
+
+
+---
+
+📍 الأسبوع 3 — MongoDB + Mongoose
+
+اليوم 1 — أساسيات MongoDB
+
+document
+
+collection
+
+types
+
+
+اليوم 2 — اتصال المشروع بالـ Mongo
+
+mongoose.connect
+
+env variables
+
+
+اليوم 3 — Schema & Model
+
+إنشاء موديل
+
+required
+
+default
+
+enum
+
+
+اليوم 4 — CRUD with DB
+
+create
+
+find
+
+update
+
+delete
+
+
+اليوم 5 — Query Filters
+
+limit
+
+skip
+
+sort
+
+regex search
+
+
+اليوم 6 — Relations + populate
+
+ref
+
+population
+
+
+اليوم 7 — تطبيق الأسبوع
+
+API كامل للـ users + posts
+(أو أي نموذج تختاره)
+
+
+
+---
+
+📍 الأسبوع 4 — Authentication + Deployment
+
+اليوم 1 — JWT Basics
+
+access token
+
+refresh token
+
+signing/verifying
+
+
+اليوم 2 — Login & Register
+
+hashing passwords (bcrypt)
+
+authentication middleware
+
+
+اليوم 3 — Authorization
+
+protect routes
+
+roles (admin/user)
+
+
+اليوم 4 — Upload Files
+
+Multer basics
+
+رفع الصور
+
+
+اليوم 5 — Sending Emails
+
+Nodemailer
+
+شكل بسيط لرسالة
+
+
+اليوم 6 — Deployment
+
+رفع المشروع على Render أو Railway
+
+config variables
+
+
+اليوم 7 — مشروع الأسبوع
+
+اعمل mini system فيه:
+
+تسجيل
+
+تسجيل دخول
+
+CRUD
+
+حماية Routes
+
+Database
+
+Deployment
+
