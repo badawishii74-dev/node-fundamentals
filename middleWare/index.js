@@ -53,20 +53,25 @@ app.use(express.json());
 //==================================================
 
 //middleware to certain routes
-app.get(
-  "/profile",
-  (req, res, next) => {
-    console.log("Profile middleware");
-    next();
-  },
-  (req, res) => {
-    res.send("Profile page");
-  }
-);
+// app.get(
+//   "/profile",
+//   (req, res, next) => {
+//     console.log("Profile middleware");
+//     next();
+//   },
+//   (req, res) => {
+//     res.send("Profile page");
+//   }
+// );
 
 
+const morgan = require("morgan");
 
+app.use(morgan("dev"));
 
+app.get("/", (req, res) => {
+  res.send("Hello");
+});
 
 
 
